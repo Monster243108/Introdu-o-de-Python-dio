@@ -1,10 +1,10 @@
 
-lista = [1, 10]
+lista = [2, 10]
 arquivo = open('teste.txt', 'r')
 try:
     texto = arquivo.read()
     divisao = 10 / 0
-    numero = lista[1]
+    numero = lista[10]
 
 except ZeroDivisionError:
     print('Não é possível realizar uma divisão por 0')
